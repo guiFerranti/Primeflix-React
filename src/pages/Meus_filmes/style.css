@@ -1,0 +1,38 @@
+.container_{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+}
+
+li{
+    list-style-type: none;
+    
+}
+
+.infos{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+ul{
+display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+}
+
+.botoes a{
+    margin-right: 10px;
+    color: #4d7bb2;
+}

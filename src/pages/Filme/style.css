@@ -1,0 +1,35 @@
+.container{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.info img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.info h2{
+    margin: 10px 0;
+}
+
+.info a{
+    display: flex;
+    width: fit-content;
+    background-color: blue;
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+}
+

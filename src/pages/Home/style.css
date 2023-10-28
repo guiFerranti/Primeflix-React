@@ -1,0 +1,41 @@
+
+
+.container{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.filme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    max-width: 50%;
+}
+
+.imagem{
+    display: flex;
+}
+
+.imagem img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.acessar{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    width: 100%;
+    border-end-end-radius: 8px;
+    border-end-start-radius: 8px;
+    padding: 5px 0;
+}
